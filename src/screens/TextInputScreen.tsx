@@ -16,13 +16,9 @@ import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import EncryptedStorage from 'react-native-encrypted-storage';
 
-import { setHeight, setWeight, setAge, setGender, setActivityLevel, setEmail, setName } from "../slices/accountInfoSlice";
-
 import { parseISO, format } from 'date-fns';
 
 import { setMealInput } from '../slices/mealInputSlice';
-
-import * as KakaoLogins from "@react-native-seoul/kakao-login"; //accessToken 만료 시 카카오 로그아웃을 자동으로 수행해야 함
 
 //redux-toolkit을 사용하기 위한 import
 import { useDispatch } from "react-redux"

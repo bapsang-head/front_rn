@@ -3,7 +3,6 @@ import { View, Text, ActivityIndicator, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import EncryptedStorage from 'react-native-encrypted-storage';
-import axios from 'axios';
 import { jwtDecode } from 'jwt-decode';
 import { format, subMonths, addMonths } from 'date-fns'; //날짜 formatting을 위해 date-fns 함수를 사용할 것임
 

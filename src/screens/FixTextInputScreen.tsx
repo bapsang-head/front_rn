@@ -1,7 +1,6 @@
 import React, {useState, useLayoutEffect, useRef, useEffect} from 'react';
 import {View, Text, TextInput, Button, StyleSheet, TouchableOpacity} from 'react-native';
 import { NavigationContainer, useNavigation, useRoute, RouteProp, CommonActions } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { MaterialCommunityIcons as Icon, MaterialCommunityIcons } from '@expo/vector-icons';
 
 import {styles} from '../styles/styles';
@@ -12,7 +11,6 @@ import SaveCompleteComponent from '@components/SaveCompleteComponent'
 
 import customAxios from '../apis/customAxios' //커스텀 axios
 
-import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import { parseISO, format } from 'date-fns';
