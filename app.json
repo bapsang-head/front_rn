@@ -2,7 +2,7 @@
   "expo": {
     "name": "밥상머리",
     "slug": "bapSang_Head_New",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "icon": "./src/assets/bapsanghead_new_logo.png",

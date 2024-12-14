@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">밥상머리</string>
+  <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
+  <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
+  <string name="expo_system_ui_user_interface_style" translatable="false">light</string>
+  <string name="kakao_app_key">fb4499f8e1b6ae395b8d46836ab0132d</string>
+</resources>

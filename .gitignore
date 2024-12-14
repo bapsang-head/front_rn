@@ -34,9 +34,6 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-# for build(add in 2024.07.14)
-android/
-ios/
 
 #for security(AppKey etc..)
 .env
